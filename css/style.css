@@ -2,3 +2,11 @@
     --primary-color: #f0f0f0;
     --primary-bg-color: #111217;
 }
+:root[data-theme='light'] {
+    --primary-color: #000;
+    --primary-bg-color: #f0f2f5;
+}
+body {
+    background: var(--primary-bg-color);
+    color: var(--primary-color)
+}
