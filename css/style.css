@@ -59,3 +59,15 @@ i {
     width: 3.25rem;
     height: 3.25rem;
 }
+#toggleTheme {
+    font-size: 1.5rem;
+    color: var(--icon-color);
+    cursor: pointer;
+    transition: ease-in-out .4s;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    background: var(--primary-bg-color);
+    gap: .5rem; 
+}
